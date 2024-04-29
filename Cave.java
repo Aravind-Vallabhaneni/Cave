@@ -85,6 +85,7 @@ class Cave
              int key = input.nextInt();
              System.out.println("Enter the key2: ");
              int key1 = input.nextInt();
+             System.out.print("Encrypted text : ");
              System.out.println(Encryption(plaintext,key,key1));
         }
         if(todo.equals("decryption"))
@@ -95,6 +96,7 @@ class Cave
             int key = input.nextInt();
             System.out.println("Enter the key2: ");
             int key1 = input.nextInt();
+            System.out.print("Decrypted text : ");
             System.out.println(Dencyption(decrpty,key,key1));
         }
     }
